@@ -18,29 +18,37 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
 
     <!-- Add this inside your <head> tag -->
-<style>
-    .transparent-bg {
-  background-color: rgba(255, 255, 255, 0.7); /* white, 70% opaque */
-}
-  body {
-    background-image: url('bg.png'); /* Replace with your image path */
-    background-size: cover;      /* Make the image cover the whole background */
-    background-repeat: no-repeat;/* Prevent tiling */
-    background-attachment: fixed;/* Optional: keep image fixed on scroll */
-    background-position: center; /* Center the image */
-  }
-</style>
+    <style>
+        .transparent-bg {
+            background-color: rgba(255, 255, 255, 0.7);
+            /* white, 70% opaque */
+        }
+
+        body {
+            background-image: url('bg.png');
+            /* Replace with your image path */
+            background-size: cover;
+            /* Make the image cover the whole background */
+            background-repeat: no-repeat;
+            /* Prevent tiling */
+            background-attachment: fixed;
+            /* Optional: keep image fixed on scroll */
+            background-position: center;
+            /* Center the image */
+        }
+    </style>
 
 </head>
 
 <body>
-    
+
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
     <header>
-        <nav class="navbar navbar-expand-lg  fixed top " style="background-color: rgba(0, 119, 255, 0.459);">
+        <nav class="navbar navbar-expand-lg  fixed top "
+            style="background: linear-gradient(45deg,#a72f97, #ffb05bf8 );">
             <div class="container-fluid">
                 <a class="navbar-brand text-white "
                     href="https://www.instagram.com/sameep_shah_?igsh=OGloMXJzemdpZDZv">Sameep Shah</a>
@@ -72,9 +80,8 @@
             <div class="container text-center ">
                 <div class="row">
                     <div
-                        class="col d-flex justify-content-center align-items-center border border-2 border-primary rounded ">
-                        <img src="img.png" class="mx-auto d-block img-fluid "
-                            style="max-width:350px; margin: 10px;">
+                        class="col d-flex justify-content-center align-items-center border border-2 border-dark rounded">
+                        <img src="img.png" class="mx-auto d-block img-fluid " style="max-width:350px; margin: 10px;">
                     </div>
                     <div class="col-12 col-md-6 ">
                         <div class="p-4  border border-2 border-primary rounded">
@@ -101,8 +108,8 @@
                 </div>
             </div>
             <section>
-                <section id="about" class="py-5 " >
-                    <div class="container"  data-aos="fade-up">
+                <section id="about" class="py-5 ">
+                    <div class="container" data-aos="fade-up">
                         <div class="row align-items-center">
 
                             <!-- Profile Picture -->
@@ -130,7 +137,11 @@
                                     <li>Account Analytics & Growth Strategy</li>
                                     <li>Paid Marketing</li>
                                 </ul>
-                                <a href="#work" class="btn btn-primary mt-3">my work</a>
+                                <a href="#work" class="btn btn-primary mt-3" style="background: linear-gradient(90deg, #8f8f8f , #000000);
+          border: none;
+          color: #fff;
+          font-weight: 600;
+          letter-spacing: 1px;">my work</a>
                             </div>
 
                         </div>
@@ -139,17 +150,19 @@
 
             </section>
             <section id="services">
-                <div class="card text-center " data-aos="zoom-in "style="background-color: transparent;">
-                    <div class="card-header d-flex justify-content-center align-items-center"
-                        style=" border: none;">
+                <div class="card text-center " data-aos="zoom-in " style="background-color: transparent;">
+                    <div class="card-header X d-flex justify-content-center align-items-center" style=" border: none;">
                         <h2 class=" text-center shadow-lg " style="
-            background-color: rgba(0, 88, 189, 0.452);
-            border: 1px solid #000;
-            padding: 1rem 2rem;
-            margin: 10px;
-            max-width: 500px;
-            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            border-radius: 0.5rem;
+                color: #000000;
+                background: linear-gradient(45deg, #9cffd1, #c70fff);
+                font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+                font-weight: 700;
+                padding: 1rem 2rem;
+                margin: 10px;
+                max-width: 500px;
+                border-radius: 25px;
+                letter-spacing: 1px;
+                box-shadow: 0 4px 24px rgba(11, 11, 12, 0.12);
             ">
                             Our Services
                         </h2>
@@ -171,12 +184,17 @@
                                 <li>Audience Engagement & Growth Insights</li>
                             </ul>
                         </div>
-                        <a href="#" class="btn btn-primary">Satisfied Clients</a>
+                        <a href="#" class="btn btn-primary " style="background: linear-gradient(90deg, #ff512f 0%, #dd2476 100%);
+          border: none;
+          color: #fff;
+          font-weight: 600;
+          letter-spacing: 1px;">Satisfied Clients</a>
                     </div>
 
 
                     <section id="work">
-                        <div class="card-footer text-body-dark bg-transparent" style="font-family: 'Times New Roman', Times, serif;">
+                        <div class="card-footer text-body-dark bg-transparent"
+                            style="font-family: 'Times New Roman', Times, serif;">
                             <h1>Our Work</h1>
                         </div>
                 </div>
@@ -193,7 +211,7 @@
                                     Your browser does not support the video tag.
                                 </video>
                             </div>
-                            
+
                         </div>
                         <div class="shadow-lg rounded-4 overflow-hidden border border-2 border-dark"
                             style="width: 300px; height: 400px; flex: 0 0 auto;">
@@ -204,7 +222,7 @@
                                     Your browser does not support the video tag.
                                 </video>
                             </div>
-                            
+
                         </div>
                         <div class="shadow-lg rounded-4 overflow-hidden border border-2 border-dark"
                             style="width: 300px; height: 400px; flex: 0 0 auto;">
@@ -242,7 +260,7 @@
                         });
                         video.addEventListener('mouseleave', function () {
                             video.pause();
-                             // Optional: reset to start
+                            // Optional: reset to start
                         });
                     });
                 </script>
@@ -335,4 +353,4 @@
         crossorigin="anonymous"></script>
 </body>
 
-</html>    
+</html>
